@@ -1,0 +1,168 @@
+#bggg {
+    
+    width: 99wv;
+    height: 96vh;
+}
+
+
+#Portfolio {
+    margin-right: 810px;
+    padding: 10px;
+    color: bisque;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    width: 99vw;
+    border-radius: 10px;
+    background-color: rgba(1, 1, 1, 0.914);
+    margin-right: 20px;
+    box-shadow: 1px 1px 10px 2px beige;
+}
+
+.nav {
+    margin-left: 30px;
+    text-decoration: none;
+    margin-top: 25px;
+    color: bisque;
+    font-size: 24px;
+    transition: all 0.4s ease-in-out;
+}
+
+#textimg {
+    display: flex;
+
+}
+
+#irfan {
+    margin-left: 50px;
+}
+
+#text {
+    margin: 50px;
+    display: flex;
+    color: black;
+    font: bold
+}
+
+.texts {
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#themeButton {
+    padding: 10px;
+    background-color: beige;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(201, 201, 188);
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 4px rgb(223, 223, 212);
+}
+
+.hii {
+    color: #020617;
+
+
+}
+
+#circule {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#020617, #475569);
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+#mg img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border-bottom: 1px solid blue;
+
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+.sociall {
+    margin-left: 30px;
+    color: #475569;
+
+}
+
+:hover.nav {
+
+    font-size: 32px;
+    transition: all 0.5s ease-in-out
+}
+
+:hover.sociall{
+    color: #020617;
+}
+
+
+
+@media(max-width:600px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar{
+        display: flex;
+        width: 100vw;
+        border-radius: 0px;
+        margin-right: 10px;
+
+
+    }
+    #Portfolio {
+        margin-right:  0px;
+    color: red;
+    font-size: 12px;
+        width: 600px;
+ height: 30px;
+
+
+
+
+}
+.nav {
+    margin-top: 20px;
+    font-size: 14px;
+}
+:hover.nav {
+
+    font-size: 18px;
+    transition: all 0.5s ease-in-out
+}
+
+#bggg {
+    
+    width: 100wv;
+    height: 100vh;
+}
+
+#circule{
+    margin-bottom: 50px;
+}
+#irfan{
+    margin-top: 20px;
+
+}
+#irfan h1{
+    font-size: 16px;
+}
+#textimg{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+}
